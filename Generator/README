@@ -1,0 +1,23 @@
+This directory contains an automatic generator of correct BLAS kernel to used for any 2-tensor contractions
+
+An example of how to use the script can be found in the file TryItOut.py. In this file all the classes of contractions reported in the paper are described together with some additional tests. The reader can add or change to the file and run it by typing the command line
+
+python TryItOut.py
+
+The result will be presented in the form
+
+Sum_b T1_b T2_b  (GEMV)
+Sum_b T1_b T2_b  (GEMV)
+Sum_c T1_c T2_c  (GEMV)
+Sum_b T1_b T2_b  (GEMM)
+Sum_c T1_c T2_c  (COPY+GEMM)
+Forall_b Forall_d Sum_j T1_jb T2_jd  (GEMM)
+Forall_b Forall_d Sum_j T1_jb T2_jd  (COPY+GEMM)
+Forall_n Forall_v Sum_k Sum_j Sum_l T1_jkln T2_jklv  (COPY+GEMM)
+Forall_m Forall_v Sum_k Sum_l Sum_n T1_klmn T2_klvn  (GEMM)
+Forall_l Forall_m Forall_z Forall_v Sum_j Sum_n T1_jlmn T2_njzv  (GEMM)
+Sum_k Sum_j Sum_l Sum_n T1_jkln T2_knjl  (COPY+GEMM)
+Sum_j Sum_k Sum_l Sum_m Sum_n T1_jklmn T2_knjml  (DOT)
+Sum_k Sum_j Sum_l Sum_n T1_jkln T2_knjl  (GEMV)
+
+Only the sliced indices are indicated explicitely and the correct BLAS kernel to use is shown in brackets.
