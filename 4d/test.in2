@@ -1,0 +1,12 @@
+ 1                how many values for cube dimensions
+    50    10   20   30   40   50     values for a
+     1     1    1    1    1    1     values for b
+    50    10   20   30   40   50     values for c
+    50    10   20   30   40   50     values for d
+   200  1000 1000 1000 1000 1000     values for i
+   200  1000 1000 1000 1000 1000     values for j
+ 1 10             number of executions
+ 2                matrix type to use   
+ 0                print_data (0=no;1=yes)
+ 1                check_result (0=no;1=yes)
+ 20 21 22 23      seeds (4 integer values; last one must be odd)

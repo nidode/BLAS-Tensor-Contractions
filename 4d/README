@@ -1,0 +1,16 @@
+===============================================================================
+= Variants:
+===============================================================================
+
+* var[1234]ref: 
+    * Reference serial code.
+    * Pure C code.
+
+* var[1234]a:
+    * Same as var[1234]ref.
+    * Code optimized to reduce the cost of indexing.
+
+* var[1234]b:
+    * Same as var[1234]ref.
+    * Modified to use BLAS routines.
+

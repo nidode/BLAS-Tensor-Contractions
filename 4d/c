@@ -1,0 +1,36 @@
+## compileFlame tesla-r1737oocsmgpu-ic-stmkl
+## compileFlame tesla-r1737oocsmgpu-ic-mtmkl
+
+## compileFlame tesla-r3979oocsmgpu-ic-stmkl
+## compileFlame tesla-r3979oocsmgpu-ic-mtmkl
+## compileFlame tesla-r3979oocsmgpu-gc-stgoto
+## compileFlame tesla-r3979oocsmgpu-gc-mtgoto
+
+## compileFlame tesla-r4818oocsmgpu-ic-stmkl
+#### compileFlame tesla-r4818oocsmgpu-ic-mtmkl
+## compileFlame tesla-r4818oocsmgpu-gc-stgoto
+## compileFlame tesla-r4818oocsmgpu-gc-mtgoto
+
+#### compileFlame zape2-current-gc-mtopenblas
+## compileFlame zape2-current-gc-stopenblas
+## compileFlame tesla-current-gc-stopenblas
+#### compileFlame tesla-current-gc-mtopenblas
+## compileFlame tesla-current-ic-mtgoto
+## compileFlame tesla-current-ic-mtmkl
+
+## compileFlame tejo-r3979oocsmgpu-gc-bref
+compileFlame tejo-current-gc-mtopenblas
+## compileFlame pc3g-r4818oocsmgpu-gc-goto
+
+#### compileFlame zape2-current-gc-mtopenblas
+
+## compileFlame peco-r3979oocsmgpu-gc-goto
+## compileFlame peco-r4818oocsmgpu-ic-mtmkl
+## compileFlame peco-r4818oocsmgpu-gc-mtgoto
+
+## compileFlame clarksville-current-gc-stopenblas
+#### compileFlame clarksville-current-gc-mtopenblas
+#### compileFlame clarksville-current_sm-gc-stopenblas
+#### compileFlame clarksville-current_sm-gc-mtopenblas
+
+## compileFlame_local upc-r4818oocsmgpu-ic-mtmkl

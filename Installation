@@ -1,0 +1,16 @@
+// =============================================================================
+
+To install these sources, you will need the following:
+
+* libFLAME 
+  We made this sources run on libFLAME release 11104.
+  Previous releases or future releases of libFLAME might require some 
+  slight modifications to these codes due to changes in libFLAME.
+  We can help you with those.
+
+* You may need some high-performance BLAS.
+  We employed OpenBLAS.
+
+Once you have installed libFLAME, you will have to adjust Makefile files
+to compile these sources.
+

@@ -1,0 +1,10 @@
+ 1 14             how many values for (m,n,k)
+  3                 values for m
+  3                 values for n
+  3                 values for k
+  3                 values for l
+ 1 10             number of executions
+ 1 2              matrix type to use   
+ 1                print_data (0=no;1=yes)
+ 1                check_result (0=no;1=yes)
+ 20 21 22 23      seeds (4 integer values; last one must be odd)
